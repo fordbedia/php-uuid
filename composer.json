@@ -1,0 +1,25 @@
+{
+    "name": "fordbedia/php-uuid",
+    "description": "PHP UUID Generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ford Bedia",
+            "email": "fordbedia@gmail.com"
+        }
+    ],
+    "keywords": [
+        "csv",
+        "api",
+        "sdk"
+    ],
+    "require": {
+        "php": ">=7."
+    },
+    "autoload": {
+        "psr-4": {
+            "Security\\": "src/"
+        }
+    }
+}
