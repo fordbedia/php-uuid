@@ -18,7 +18,7 @@ echo $uuid;
 ```php
 use Security\UUID;
 
-// Creaate a license key
+// Create a license key
 $guid = new UUID;
 
 echo $guid->createGUID();
